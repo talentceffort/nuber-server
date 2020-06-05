@@ -1,0 +1,15 @@
+{
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": ["config/**/*.js", "node_modules/**/*."]
+  },
+  "rules": {
+    "no-console": false,
+    "member-access": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": true, // import 순서 정렬
+    "interface-name": false, // interface 이름에 대해
+    "strict-null-checks": false // 엄격한 null check
+  },
+  "rulesDirectory": []
+}
